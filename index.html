@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>แชร์กิจกรรม</title>
+</head>
+<body>
+  <script src="https://static.line-scdn.net/liff/edge/versions/2.5.0/sdk.js"></script>
+  <script>
+    async function  main() {
+      await liff.init({ liffId: "2006513162-evrknL2D" })
+      await liff.shareTargetPicker([{
+      "type": "flex",
+      "altText": "กดรับเครดิตฟรี50บาท",
+  "type": "flex",
+  "contents":{
+  "type": "bubble",
+  "size": "giga",
+  "hero": {
+    "type": "image",
+    "url": "https://lh3.googleusercontent.com/d/1yKN03601AxWXOV93a1_U97J6vs6WqBl-",
+    "size": "full",
+    "aspectMode": "cover",
+    "aspectRatio": "10.4:5.9"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://lh3.googleusercontent.com/d/1GuYm6y53-w3_B38_HTFpjQprUv0G315o"
+              }
+            ],
+            "justifyContent": "center",
+            "alignItems": "center",
+            "offsetEnd": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "วิธีรับเครดิตฟรี 50 บาท",
+                "size": "xl",
+                "color": "#ffffff"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "box",
+                    "layout": "baseline",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "text": "- กดปุ่มแชร์กิจกรรม เข้า 5 กลุ่ม",
+                        "align": "start",
+                        "offsetStart": "10px",
+                        "color": "#ffffff"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "box",
+                    "layout": "baseline",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "text": "- หรือ ส่งให้เพื่อนในไลน์ 10 คน",
+                        "align": "start",
+                        "offsetStart": "10px",
+                        "color": "#ffffff"
+                      }
+                    ],
+                    "offsetBottom": "md"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "baseline",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "text": "ทำยอด 600 ถอนได้ 50 บาท",
+                        "align": "start",
+                        "offsetStart": "10px",
+                        "color": "#ffffff"
+                      }
+                    ],
+                    "offsetBottom": "xl"
+                  }
+                ],
+                "spacing": "md"
+              }
+            ],
+            "flex": 2
+          }
+        ],
+        "offsetBottom": "sm"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "height": "2px",
+        "backgroundColor": "#fca806",
+        "offsetBottom": "sm"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "height": "md",
+                "action": {
+                  "type": "uri",
+                  "label": "แชร์กิจกรรม 📤",
+                  "uri": "https://liff.line.me/2006513162-evrknL2D"
+                },
+                "color": "#fca806"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "รับเครดิตฟรี",
+                      "uri": "https://lin.ee/w9oEzCv"
+                    },
+                    "style": "primary",
+                    "color": "#3d04ce"
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "ลงทะเบียน",
+                      "uri": "https://liff.line.me/2006474590-nD4KrvK7"
+                    },
+                    "style": "primary",
+                    "color": "#de3f00"
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "โปรโมชั่น",
+                      "uri": "https://liff.line.me/2006474590-nD4KrvK7"
+                    },
+                    "style": "primary"
+                  }
+                ],
+                "spacing": "md",
+                "offsetTop": "sm"
+              }
+            ]
+          }
+        ],
+        "margin": "md",
+        "spacing": "md"
+      }
+    ],
+    "background": {
+      "type": "linearGradient",
+      "angle": "0deg",
+      "startColor": "#000000",
+      "endColor": "#000000"
+    },
+    "paddingAll": "10px"
+  }
+} 
+        
+        
+        
+    }])
+      liff.closeWindow()
+      
+    }
+    main()
+  </script>
+</body>
+</html>
